@@ -2,7 +2,7 @@ import React from 'react';
 import Medal from './Medal';
 
 const Country = (props) => {
-  const { country, medals, onIncrement, onDecrement, onDelete, onSave, onReset, canDelete, canPatch } = props;
+  const { country, medals, onIncrement, onDecrement, onDelete, canDelete, canPatch } = props;
 
   const getMedalsTotal = (country, medals) => {
     let sum = 0;
